@@ -10,17 +10,16 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App"> // Use 'className' instead of 'class'
+      <div className="App">
 
         <Route exact path="/" component={Home} />
-        <Route path="//hobbies" component={Hobbies} />
+        <Route path="/hobbies" component={Hobbies} />
         <Route path="/about" component={About} />
 
         <div className="navigation">
-          <img src={logo} className="logo" alt="Logo Image" />
           <div className="navigation-sub">
-              <Link to="/" className="item">Home</Link>
-              <Link to="/articles" className="item">Hobbies</Link>
+              <Link to="/" className="item">Home </Link>
+              <Link to="/hobbies" className="item">Hobbies </Link>
               <Link to="/about" className="item">About</Link>
           </div>
         </div>
