@@ -6,6 +6,8 @@ import Home from './Home.js';
 import Hobbies from './Hobbies.js'; 
 import About from './About.js'; 
 import Interests from './Interests.js'; 
+import Presentations from './Presentations.js'; 
+
 
 import './App.css';
 
@@ -21,6 +23,8 @@ function App() {
               <Link to="/hobbies" className="item">Hobbies </Link>
               <Link to="/about" className="item">About</Link>
               <Link to="/interests" className="item">Interests</Link>
+              <Link to="/Presentations" className="item">Presentations</Link>
+
 
           </div>
           
@@ -30,6 +34,8 @@ function App() {
         <Route path="/hobbies" component={Hobbies} />
         <Route path="/about" component={About} />
         <Route path="/interests" component={Interests} />
+        <Route path="/presentations" component={Presentations} />
+
 
 
       </div>
