@@ -5,6 +5,8 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Home from './Home.js'; 
 import Hobbies from './Hobbies.js'; 
 import About from './About.js'; 
+import Interests from './Interests.js'; 
+
 import './App.css';
 
 function App() {
@@ -12,17 +14,24 @@ function App() {
     <BrowserRouter>
       <div className="App">
 
-        <Route exact path="/" component={Home} />
-        <Route path="/hobbies" component={Hobbies} />
-        <Route path="/about" component={About} />
-
         <div className="navigation">
           <div className="navigation-sub">
+              <a>David Cheung </a>
               <Link to="/" className="item">Home </Link>
               <Link to="/hobbies" className="item">Hobbies </Link>
               <Link to="/about" className="item">About</Link>
+              <Link to="/interests" className="item">Interests</Link>
+
           </div>
+          
         </div>
+
+        <Route exact path="/" component={Home} />
+        <Route path="/hobbies" component={Hobbies} />
+        <Route path="/about" component={About} />
+        <Route path="/interests" component={Interests} />
+
+
       </div>
     </BrowserRouter>
   );
