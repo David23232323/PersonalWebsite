@@ -6,7 +6,9 @@ import Home from './Home.js';
 import Hobbies from './Hobbies.js'; 
 import About from './About.js'; 
 import Interests from './Interests.js'; 
-import Presentations from './Presentations.js'; 
+import Presentations from './Presentations.js';
+import Resume from './Resume.js';
+
 
 
 import './App.css';
@@ -15,7 +17,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-
         <div className="navigation">
           <div className="navigation-sub">
               <a>David Cheung </a>
@@ -24,6 +25,8 @@ function App() {
               <Link to="/about" className="item">About</Link>
               <Link to="/interests" className="item">Interests</Link>
               <Link to="/Presentations" className="item">Presentations</Link>
+              <Link to="/Resume" className="item">Resume</Link>
+
 
 
           </div>
@@ -35,6 +38,8 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/interests" component={Interests} />
         <Route path="/presentations" component={Presentations} />
+        <Route path="/resume" component={Resume} />
+
 
 
 

@@ -4,7 +4,7 @@ import PresentationTable from './PresentationTable.js'; // Import the Thumbnail 
 
 import './App.css';
  
-function Presentations(props) {
+export default function Presentations(props) {
   return (
     // Render a Thumbnail component
     <div>
@@ -56,4 +56,3 @@ function Presentations(props) {
   )
 }
  
-export default Presentations;
