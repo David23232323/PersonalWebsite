@@ -24,6 +24,14 @@
   color: white;
 }
 
+img {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 50%;
+  max-width: 50%;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +43,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+table {
+  width: 80%;
 }
