@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { pdfjs } from 'react-pdf';
 import { Document, Page } from 'react-pdf';
 
-import sample from './1.pdf'
+import sample from './assets/resume.pdf'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -13,6 +13,9 @@ function About(props) {
 
   return (
     <div>
+      <div>
+        <a href={sample} target="_blank">Download Resume</a>
+      </div>
       <Document
         file={sample}
         onLoadError={console.error}
