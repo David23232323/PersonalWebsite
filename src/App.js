@@ -3,7 +3,9 @@ import logo from './logo.svg';
 // Import the BrowserRouter, Route and Link components
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
 import Home from './Home.js'; 
-import Hobbies from './Hobbies.js'; 
+import Hobbies from './hobbies/Hobbies.js'; 
+// import Hobbies from './Hobbies.js'; 
+
 import About from './About.js'; 
 import Interests from './Interests.js'; 
 import Presentations from './Presentations.js';
