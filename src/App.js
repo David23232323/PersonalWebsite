@@ -8,8 +8,8 @@ import Hobbies from './hobbies/Hobbies.js';
 
 import About from './About.js'; 
 import Interests from './Interests.js'; 
-import Presentations from './Presentations.js';
-import Resume from './Resume.js';
+import Presentations from './presentation/Presentations.js';
+import Resume from './resume/Resume.js';
 
 
 
