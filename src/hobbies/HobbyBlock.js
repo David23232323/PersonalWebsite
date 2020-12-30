@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import '../App.css';
-import ImageText from './ImageText.js'; // Import the Thumbnail component
+import ImageText from '../general_props/ImageText.js'; // Import the Thumbnail component
  
 function HobbyBlock(props) {
   const blockCSS = {

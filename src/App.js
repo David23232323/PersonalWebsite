@@ -4,6 +4,8 @@ import logo from './logo.svg';
 import { BrowserRouter, Route, Link } from 'react-router-dom'; 
 import Home from './Home.js'; 
 import Hobbies from './hobbies/Hobbies.js'; 
+import Books from './book/books.js'; 
+
 // import Hobbies from './Hobbies.js'; 
 
 import About from './About.js'; 
@@ -24,7 +26,8 @@ function App() {
               <a>David Cheung </a>
               <Link to="/" className="item">Home </Link>
               <Link to="/hobbies" className="item">Hobbies </Link>
-              <Link to="/about" className="item">About</Link>
+              {/* <Link to="/about" className="item">About</Link> */}
+              <Link to="/books" className="item">Book</Link>
               <Link to="/interests" className="item">Interests</Link>
               <Link to="/Presentations" className="item">Presentations</Link>
               <Link to="/Resume" className="item">Resume</Link>
@@ -37,7 +40,8 @@ function App() {
 
         <Route exact path="/" component={Home} />
         <Route path="/hobbies" component={Hobbies} />
-        <Route path="/about" component={About} />
+        {/* <Route path="/about" component={About} /> */}
+        <Route path="/books" component={Books} />
         <Route path="/interests" component={Interests} />
         <Route path="/presentations" component={Presentations} />
         <Route path="/resume" component={Resume} />
