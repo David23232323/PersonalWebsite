@@ -1,6 +1,6 @@
 import React from 'react';
-import './book.css';
 import SortableTable from './SortableTable.js'
+import ImageText from '../general_props/ImageText.js'
 
 export default function Book() {
     return (
@@ -9,6 +9,31 @@ export default function Book() {
           <a href="https://www.goodreads.com/user/show/109811261-david" target="_blank">Good Reads Profile</a>
           <div className="Favorites">
             <h4>Favorites</h4>
+            <ImageText
+            title={"Future of Capitalism"}
+            description={"A fun read about economics"}
+            path={"/images/books/future_capitalism.jpg"}>    
+            </ImageText>
+            <ImageText
+            title={"Thinking Fast and Slow"}
+            description={"A fun read about human congition"}
+            path={"/images/books/thinking_fast_slow.jpg"}>    
+            </ImageText>
+            <ImageText
+            title={"The Selfish Gene"}
+            description={"A fun read about evolution"}
+            path={"/images/books/selfish_gene.jpg"}>    
+            </ImageText>
+            <ImageText
+            title={"The Righteous Mind"}
+            description={"A fun read about beliefs and values"}
+            path={"/images/books/righteous_mind.jpg"}>    
+            </ImageText>
+            <ImageText
+            title={"The Ride of a Lifetime"}
+            description={"A fun read about Robert Iger"}
+            path={"/images/books/robert_iger.jpg"}>    
+            </ImageText>
           </div>
           <div>
             <h4>All Books</h4>
