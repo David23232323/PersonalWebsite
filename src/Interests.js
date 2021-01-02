@@ -6,7 +6,7 @@ function Interests(props) {
   return (
     <div>
         <h1>Interests</h1>
-        <div>
+        <div className="p-4 m-4 bg-green-300 h-full">
             <Collapsible trigger="Astronomy">
                 <p>blah blah blah stars</p>
             </Collapsible>

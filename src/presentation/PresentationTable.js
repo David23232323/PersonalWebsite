@@ -20,9 +20,9 @@ function PresentationTable(props) {
 
   return (
     <div style={{clear:"both"}}>
-      <table>
+      <table className="w-4/5 m-auto space-y-5">
         <tbody>
-          <tr>
+          <tr className="gap-y-1">
             {tableTitles}
           </tr>
           {content}

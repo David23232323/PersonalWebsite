@@ -32,8 +32,6 @@ function App() {
               <Link to="/Presentations" className="item">Presentations</Link>
               <Link to="/Resume" className="item">Resume</Link>
 
-
-
           </div>
           
         </div>

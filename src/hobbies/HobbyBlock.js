@@ -18,7 +18,7 @@ function HobbyBlock(props) {
 
 
   return (
-    <div style={blockCSS}>
+    <div className="clear-left">
       <h3>{props.title}</h3>
       <div>{content}</div>
     </div>

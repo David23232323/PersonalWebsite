@@ -2,46 +2,17 @@ import React from 'react';
 import '../App.css';
  
 function ImageText(props) {
-    const contentStyle = {
-        position: "relative",
-        width: "90%",
-        maxWidth: "400px",
-        margin: "auto",
-        overflow: "hidden",
-      };
-
-    const contentOverlayStyle = {
-        background: "yellow",
-        position: "absolute",
-        height: "99%",
-        width: "100%",
-        left: "0",
-        top: "0",
-        bottom: "0",
-        right: "0",
-        opacity: "0",
-        transition: "all 0.4s ease-in-out 0s"
-      };
-
-  const topFade = {
-    top: "20%"
-  }
-
-  const containerCSS = {
-    maxWidth: "30%"
-  }
-      
 
   return (
-    <div class="container" style={containerCSS}>
+    <div className="container">
 
-        <div class="content" style={contentStyle}>
+        <div className="content" style={{width: "50%"}}>
             <a href={props.path} target="_blank">
-            <div class="content-overlay" ></div> 
+            <div className="content-overlay" ></div> 
 
-            <img class="content-image" src={props.path}>
+            <img className="content-image" src={props.path}>
             </img>
-            <div class="content-details fadeIn-top" style={topFade}>
+            <div className="content-details fadeIn-top">
                 <h3>{props.title}</h3>
                 <p>{props.description}</p>
             </div>
