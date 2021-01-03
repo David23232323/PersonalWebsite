@@ -1,6 +1,7 @@
 import React from 'react';
-import PresentationTable from './PresentationTable.js'; // Import the Thumbnail component
-
+import PresentationTable from './PresentationTable.js';
+import PresentationRow from './PresentationRow.js'; 
+import './Presentation.css'
 import '../App.css';
  
 export default function Presentations(props) {
@@ -27,6 +28,24 @@ export default function Presentations(props) {
               ]}
      />
 
+
+              <PresentationRow
+                presentationPath = {"\presentations\Axiom of Choice.pptx"}
+                previewPath = {"/images/presentations/aoc_preview.jpg"}
+                presentationName = {"Axiom of Choice"}
+                description = {"This is a presentation on the Axiom of Choice and its equivalents (Well Ordering Thorem/Zorn's Lemma) and some fun probelms you can solve with it"}
+                date = {"10/20/2020"}
+              >
+              </PresentationRow>
+
+              {/* <PresentationRow
+                presentationPath = {"\presentations\Axiom of Choice.pptx"}
+                previewPath = {"/images/presentations/aoc_preview.jpg"}
+                presentationName = {"Axiom of Choice"}
+                description = {"This is a presentation on the Axiom of Choice and its equivalents (Well Ordering Thorem/Zorn's Lemma) and some fun probelms you can solve with it"}
+                date = {"10/20/2020"}
+              >
+              </PresentationRow> */}
     </div>
   )
 }

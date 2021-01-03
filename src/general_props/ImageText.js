@@ -6,7 +6,7 @@ function ImageText(props) {
   return (
     <div className="container">
 
-        <div className="content" style={{width: "50%"}}>
+        <div className="content" style={{width: props.width}}>
             <a href={props.path} target="_blank">
             <div className="content-overlay" ></div> 
 

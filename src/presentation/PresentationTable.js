@@ -10,9 +10,9 @@ function PresentationTable(props) {
   }
 
   for (const [index, row] of props.content.entries()) {
-    content.push(<tr key={index}>
-                  <td key={index}><a href={row.presentationPath} download={row.presentationName}><img src={row.previewPath} /></a></td>
-                  <td key={index}>{row.description}</td>
+    content.push(<tr key={index} >
+                  <td key={index}><a href={row.presentationPath} download={row.presentationPath}><img src={row.previewPath} className="max-w-sm"/></a></td>
+                  <td key={index} className="max-w-xs border-black">{row.description}</td>
                   <td key={index}>{row.date}</td>
                 </tr>)
   }
@@ -20,9 +20,9 @@ function PresentationTable(props) {
 
   return (
     <div style={{clear:"both"}}>
-      <table className="w-4/5 m-auto space-y-5">
+      <table className="border-separate w-4/5 m-auto ">
         <tbody>
-          <tr className="gap-y-1">
+          <tr>
             {tableTitles}
           </tr>
           {content}
