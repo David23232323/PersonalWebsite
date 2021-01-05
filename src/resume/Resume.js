@@ -8,24 +8,26 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 
  
-function About(props) {
+function Resume(props) {
   const [pageNumber, setPageNumber] = useState(1); //setting 1 to show fisrt page
 
   return (
     <div>
+      <h1>Resume</h1>
       <div>
         <a href={sample} target="_blank">Download Resume</a>
       </div>
-      <Document
-        file={sample}
-        onLoadError={console.error}
-      >
-                <Page pageNumber={pageNumber} />
+      <div className="m-auto border-4">
+        <Document
+          file={sample}
+          onLoadError={console.error}
+        >
+        <Page pageNumber={pageNumber} />
 
-    </Document>
-
+        </Document> 
+      </div>
     </div>
   )
 }
  
-export default About;
+export default Resume;

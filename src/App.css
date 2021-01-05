@@ -177,4 +177,8 @@ h3 {
   font-weight: bold;
 }
 
-
+.react-pdf__Page__canvas {
+  margin: 0 auto;
+  width: 40% !important;
+  height: 60% !important;
+}
