@@ -23,7 +23,7 @@ function App() {
       <div className="App">
         <div className="navigation">
           <div className="navigation-sub">
-              <a>David Cheung </a>
+              <a style={{backgroundColor: "#a33f00"}}>David Cheung </a>
               <Link to="/" className="item">Home </Link>
               <Link to="/hobbies" className="item">Hobbies </Link>
               {/* <Link to="/about" className="item">About</Link> */}

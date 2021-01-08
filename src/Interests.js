@@ -19,7 +19,7 @@ function Interests(props) {
 
     <div>
         <h1>Interests</h1>
-        <div>
+        <div className="m-auto w-8/12">
             {content.map((value, index) => {
                 return <Collapsible trigger={`+  ${value.title}  +`}
                 triggerWhenOpen={`-  ${value.title}  -`}

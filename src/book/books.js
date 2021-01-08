@@ -5,10 +5,10 @@ import ImageText from '../general_props/ImageText.js'
 export default function Book() {
     return (
       <div className="Book">
-          <h2>Books I've Read</h2>
-          <a href="https://www.goodreads.com/user/show/109811261-david" target="_blank">Good Reads Profile</a>
+          <h1>Books I've Read</h1>
+          <a className="italic hover:text-blue-600" href="https://www.goodreads.com/user/show/109811261-david" target="_blank">Good Reads Profile</a>
           <div className="Favorites">
-            <h4>Favorites</h4>
+            <h3>Favorites</h3>
             <ImageText
             title={"Future of Capitalism"}
             description={"A fun read about economics"}
