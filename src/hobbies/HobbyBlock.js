@@ -12,7 +12,8 @@ function HobbyBlock(props) {
     content.push(<ImageText key={index}
     title={picture.title}
     description={picture.description}
-    path={picture.path} >
+    path={picture.path}
+    width={"80%"} >
     </ImageText>)
   }
 

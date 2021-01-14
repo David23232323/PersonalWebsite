@@ -23,13 +23,14 @@ function App() {
       <div className="App">
         <div className="navigation">
           <div className="navigation-sub">
-              <a style={{backgroundColor: "#a33f00"}}>David Cheung </a>
+              <Link to="/" style={{backgroundColor: "#a33f00"}} className="item">David Cheung  </Link>
+
               <Link to="/" className="item">Home </Link>
               <Link to="/hobbies" className="item">Hobbies </Link>
               {/* <Link to="/about" className="item">About</Link> */}
               <Link to="/books" className="item">Book</Link>
               <Link to="/interests" className="item">Interests</Link>
-              <Link to="/Presentations" className="item">Presentations</Link>
+              <Link to="/Presentations" className="item" activeStyle={{color: 'red'}}>Presentations</Link>
               <Link to="/Resume" className="item">Resume</Link>
 
           </div>

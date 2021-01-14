@@ -19,6 +19,8 @@ const imgCSS = {
       <div>
         <h3>About This Site</h3>
         <p>I made this website to learn the React framework. But also, having an website is always nice to have for people who want to do a little stalking.</p>
+        <p>Unfortunately this site is not mobile friendly and uses hover effects which probably won't work well on mobile</p>
+
       </div>
     </div>
   )

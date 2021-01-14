@@ -7,7 +7,7 @@ import '../App.css';
 export default function Presentations(props) {
   return (
     // Render a Thumbnail component
-    <div className="border-4 border-black">
+    <div className="">
       <h1>Presentations</h1>
       <div className="m-auto w-8/12"> 
         <p className="italic">During quarantine, my friend Michael proposed that each week, a person gives a presentation on any subject that they are interested in. Below are the presentation that I have given.</p>
@@ -34,7 +34,7 @@ export default function Presentations(props) {
 
       <div className="m-auto w-8/12">
         <span className="float-left font-bold ml-3">Presentation</span>
-        <span className="float-right font-bold mr-3">Date</span>
+        <span className="float-right font-bold mr-3">Description</span>
         <PresentationRow
           presentationPath = {"/presentations/Axiom_of_Choice.pptx"}
           previewPath = {"/images/presentations/aoc_preview.jpg"}

@@ -4,8 +4,6 @@ import '../App.css';
 function ImageText(props) {
 
   return (
-    <div className="container">
-
         <div className="content" style={{width: props.width}}>
             <a href={props.path} target="_blank">
             <div className="content-overlay" ></div> 
@@ -18,7 +16,6 @@ function ImageText(props) {
             </div>
             </a>
         </div>
-    </div>
 
     
   )
