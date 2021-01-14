@@ -21,7 +21,7 @@ def generatePhotoJS(path):
     return start
     
 def writeJS(text):
-    f = open("test.js", "w")
+    f = open("photo.js", "w")
     f.write(text)
     f.close()
         

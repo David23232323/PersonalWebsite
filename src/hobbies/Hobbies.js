@@ -7,18 +7,6 @@ import { photos } from "./photos";
 
  
 function Hobbies(props) {
-  // const photos = [
-  //   {
-  //     src: '/images/hobbies/star1.jpg',
-  //     width: 4,
-  //     height: 3
-  //   },
-  //   {
-  //     src: '/images/hobbies/star1.jpg',
-  //     width: 1,
-  //     height: 1
-  //   }
-  // ];
   return (
     // Render a Thumbnail component
     <div>
@@ -31,6 +19,12 @@ function Hobbies(props) {
                   {title: "sup",
                   description: "hello",
                   path: "/images/hobbies/ski2.jpg"},
+                  {title: "sup",
+                  description: "hello",
+                  path: "/images/hobbies/ski3.jpg"},
+                  // {title: "sup",
+                  // description: "hello",
+                  // path: "/images/hobbies/ski4.jpg"},
                   ]} >
       </HobbyBlock>
       <HobbyBlock
@@ -50,23 +44,30 @@ function Hobbies(props) {
         title={"Sports"}
         content={[{title: "sup",
                   description: "hello",
-                  path: "/images/hobbies/star1.jpg"}, 
+                  path: "/images/hobbies/bike2.jpg"}, 
                   {title: "sup",
                   description: "hello",
-                  path: "/images/hobbies/star2.jpg"}
+                  path: "/images/hobbies/climb.jpg"},
+                  {title: "sup",
+                  description: "hello",
+                  path: "/images/hobbies/kayak.jpg"}
                   ]} >
       </HobbyBlock>
       <HobbyBlock
         title={"Hiking/Camping"}
         content={[{title: "sup",
                   description: "hello",
-                  path: "/images/hobbies/star1.jpg"}, 
+                  path: "/images/hobbies/volcano.jpg"}, 
                   {title: "sup",
                   description: "hello",
-                  path: "/images/hobbies/star2.jpg"}
+                  path: "/images/hobbies/behind.jpg"},
+                  {title: "sup",
+                  description: "hello",
+                  path: "/images/hobbies/cracked.jpg"}
                   ]} >
       </HobbyBlock>
-      <div className="clear-both"><p>hi</p>
+      <div className="clear-both">
+        <h3>All Pics</h3>
         {/* <Gallery photos={photos} /> */}
         <Gallery photos={photos} />
 

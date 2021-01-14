@@ -1,47 +1,32 @@
 export const photos = [
   {
-  src: "/images/hobbies/013A0052.jpg",
-  width: 1.6931,
-  height: 1
-},
-{
-  src: "/images/hobbies/013A0376.jpg",
-  width: 0.66667,
-  height: 1
-},
-{
-  src: "/images/hobbies/013A0599.jpg",
-  width: 1.5,
-  height: 1
-},
-{
-  src: "/images/hobbies/IMG_1452.jpg",
+  src: "/images/hobbies/bike2.jpg",
   width: 0.75,
   height: 1
 },
 {
-  src: "/images/hobbies/IMG_1576.jpg",
+  src: "/images/hobbies/bike3.jpg",
+  width: 1.33333,
+  height: 1
+},
+{
+  src: "/images/hobbies/boat.jpg",
+  width: 1.33333,
+  height: 1
+},
+{
+  src: "/images/hobbies/dog.jpg",
   width: 0.46205,
+  height: 1
+},
+{
+  src: "/images/hobbies/foo.jpg",
+  width: 1.33333,
   height: 1
 },
 {
   src: "/images/hobbies/IMG_1899.jpg",
   width: 0.75,
-  height: 1
-},
-{
-  src: "/images/hobbies/IMG_2512 2.jpg",
-  width: 1.77778,
-  height: 1
-},
-{
-  src: "/images/hobbies/IMG_3867.jpg",
-  width: 1.33333,
-  height: 1
-},
-{
-  src: "/images/hobbies/IMG_3960.jpg",
-  width: 1.33333,
   height: 1
 },
 {
@@ -52,6 +37,26 @@ export const photos = [
 {
   src: "/images/hobbies/IMG_4298.jpg",
   width: 0.75,
+  height: 1
+},
+{
+  src: "/images/hobbies/IMG_5952.jpg",
+  width: 0.75,
+  height: 1
+},
+{
+  src: "/images/hobbies/IMG_5983.jpg",
+  width: 1.33333,
+  height: 1
+},
+{
+  src: "/images/hobbies/IMG_6002.jpg",
+  width: 0.46205,
+  height: 1
+},
+{
+  src: "/images/hobbies/IMG_6129.jpg",
+  width: 1.33333,
   height: 1
 },
 {
@@ -75,53 +80,28 @@ export const photos = [
   height: 1
 },
 {
-  src: "/images/hobbies/IMG_5952.jpg",
-  width: 0.75,
-  height: 1
-},
-{
-  src: "/images/hobbies/IMG_5983.jpg",
-  width: 1.33333,
-  height: 1
-},
-{
-  src: "/images/hobbies/IMG_6002.jpg",
-  width: 0.46205,
-  height: 1
-},
-{
-  src: "/images/hobbies/IMG_6065.jpg",
-  width: 1.33333,
-  height: 1
-},
-{
-  src: "/images/hobbies/IMG_6129.jpg",
-  width: 1.33333,
-  height: 1
-},
-{
-  src: "/images/hobbies/IMG_6228.jpg",
-  width: 1.33333,
-  height: 1
-},
-{
-  src: "/images/hobbies/IMG_6229.jpg",
-  width: 1.33333,
-  height: 1
-},
-{
-  src: "/images/hobbies/IMG_6269.jpg",
-  width: 0.75,
-  height: 1
-},
-{
-  src: "/images/hobbies/IMG_6375.jpg",
-  width: 0.46205,
-  height: 1
-},
-{
   src: "/images/hobbies/IMG_7867.jpg",
   width: 1.33333,
+  height: 1
+},
+{
+  src: "/images/hobbies/kayak.jpg",
+  width: 0.75,
+  height: 1
+},
+{
+  src: "/images/hobbies/log.jpg",
+  width: 0.46205,
+  height: 1
+},
+{
+  src: "/images/hobbies/pretty.jpg",
+  width: 1.33333,
+  height: 1
+},
+{
+  src: "/images/hobbies/sh.jpg",
+  width: 1.6931,
   height: 1
 },
 {
@@ -145,6 +125,11 @@ export const photos = [
   height: 1
 },
 {
+  src: "/images/hobbies/waterfall.gif",
+  width: 0.562,
+  height: 1
+},
+{
   src: "/images/hobbies/star1.jpg",
   width: 1.5,
   height: 1
@@ -152,6 +137,16 @@ export const photos = [
 {
   src: "/images/hobbies/star2.jpg",
   width: 1.5,
+  height: 1
+},
+{
+  src: "/images/hobbies/volcano.jpg",
+  width: 1.5,
+  height: 1
+},
+{
+  src: "/images/hobbies/fire.gif",
+  width: 0.562,
   height: 1
 },
 ];

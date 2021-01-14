@@ -19,9 +19,9 @@ function HobbyBlock(props) {
 
 
   return (
-    <div className="clear-left">
+    <div className="clear-both">
       <h3>{props.title}</h3>
-      <div>{content}</div>
+      <div className="flex flex-wrap justify-center">{content}</div>
     </div>
   )
 }
