@@ -1,5 +1,45 @@
 export const photos = [
   {
+  src: "/images/hobbies/080.JPG",
+  width: 1.33333,
+  height: 1
+},
+{
+  src: "/images/hobbies/1663.JPG",
+  width: 1.33333,
+  height: 1
+},
+{
+  src: "/images/hobbies/410.JPG",
+  width: 1.7806,
+  height: 1
+},
+{
+  src: "/images/hobbies/428.jpg",
+  width: 1.5,
+  height: 1
+},
+{
+  src: "/images/hobbies/763.JPG",
+  width: 1.33333,
+  height: 1
+},
+{
+  src: "/images/hobbies/822.JPG",
+  width: 1.33333,
+  height: 1
+},
+{
+  src: "/images/hobbies/behind.jpg",
+  width: 1.33333,
+  height: 1
+},
+{
+  src: "/images/hobbies/bike.JPG",
+  width: 0.64174,
+  height: 1
+},
+{
   src: "/images/hobbies/bike2.jpg",
   width: 0.75,
   height: 1
@@ -15,8 +55,23 @@ export const photos = [
   height: 1
 },
 {
+  src: "/images/hobbies/climb.jpg",
+  width: 0.60294,
+  height: 1
+},
+{
+  src: "/images/hobbies/cracked.jpg",
+  width: 1.33333,
+  height: 1
+},
+{
   src: "/images/hobbies/dog.jpg",
   width: 0.46205,
+  height: 1
+},
+{
+  src: "/images/hobbies/fire.gif",
+  width: 0.56239,
   height: 1
 },
 {
@@ -25,8 +80,28 @@ export const photos = [
   height: 1
 },
 {
-  src: "/images/hobbies/IMG_1899.jpg",
-  width: 0.75,
+  src: "/images/hobbies/IMG_0323.JPG",
+  width: 0.79129,
+  height: 1
+},
+{
+  src: "/images/hobbies/IMG_2108.JPG",
+  width: 0.50335,
+  height: 1
+},
+{
+  src: "/images/hobbies/IMG_2537.JPG",
+  width: 1.77778,
+  height: 1
+},
+{
+  src: "/images/hobbies/IMG_2542.JPG",
+  width: 1.77778,
+  height: 1
+},
+{
+  src: "/images/hobbies/IMG_3808.JPG",
+  width: 0.5625,
   height: 1
 },
 {
@@ -40,26 +115,6 @@ export const photos = [
   height: 1
 },
 {
-  src: "/images/hobbies/IMG_5952.jpg",
-  width: 0.75,
-  height: 1
-},
-{
-  src: "/images/hobbies/IMG_5983.jpg",
-  width: 1.33333,
-  height: 1
-},
-{
-  src: "/images/hobbies/IMG_6002.jpg",
-  width: 0.46205,
-  height: 1
-},
-{
-  src: "/images/hobbies/IMG_6129.jpg",
-  width: 1.33333,
-  height: 1
-},
-{
   src: "/images/hobbies/IMG_4394.jpg",
   width: 0.75,
   height: 1
@@ -70,12 +125,17 @@ export const photos = [
   height: 1
 },
 {
-  src: "/images/hobbies/IMG_5061.jpg",
+  src: "/images/hobbies/IMG_5952.jpg",
+  width: 0.75,
+  height: 1
+},
+{
+  src: "/images/hobbies/IMG_5983.jpg",
   width: 1.33333,
   height: 1
 },
 {
-  src: "/images/hobbies/IMG_5919.jpg",
+  src: "/images/hobbies/IMG_6129.jpg",
   width: 1.33333,
   height: 1
 },
@@ -125,8 +185,8 @@ export const photos = [
   height: 1
 },
 {
-  src: "/images/hobbies/waterfall.gif",
-  width: 0.562,
+  src: "/images/hobbies/ski4.jpg",
+  width: 0.75,
   height: 1
 },
 {
@@ -145,8 +205,8 @@ export const photos = [
   height: 1
 },
 {
-  src: "/images/hobbies/fire.gif",
-  width: 0.562,
+  src: "/images/hobbies/waterfall.gif",
+  width: 0.56239,
   height: 1
-},
+}
 ];
