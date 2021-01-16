@@ -29,7 +29,7 @@ export default function Book() {
 
     return (
       <div className="Book">
-          <h1>Books I've Read</h1>
+          <h1>Books</h1>
           <a className="italic hover:text-blue-600" href="https://www.goodreads.com/user/show/109811261-david" target="_blank">Good Reads Profile</a>
           <div className="Favorites">
             <h3>Favorites</h3>

@@ -6,8 +6,8 @@ export const photos = [
 },
 {
   src: "images/hobbies/1663.jpg",
-  width: 1.33333,
-  height: 1
+  width: 1,
+  height: 1.33333
 },
 {
   src: "images/hobbies/410.jpg",
