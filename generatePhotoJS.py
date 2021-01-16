@@ -6,7 +6,7 @@ import random
 def generatePhotoJS(path):
     start = "export const photos = [\n\t"
     end = "];"
-    prependPath = "/images/hobbies/"
+    prependPath = "images/hobbies/"
     paths = os.listdir(path)
     random.shuffle(os.listdir(path))
     for filename in paths:

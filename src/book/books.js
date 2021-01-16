@@ -6,23 +6,23 @@ export default function Book() {
 
   const favBooks = [{title: "Future of Capitalism",
                       description: "A fun read about economics",
-                      path: "/images/books/future_capitalism.jpg",
+                      path: "images/books/future_capitalism.jpg",
                       width: "10%"},
                       {title: "Thinking Fast and Slow",
                       description: "A fun read about thinking and cognitive biases",
-                      path: "/images/books/thinking_fast_slow.jpg",
+                      path: "images/books/thinking_fast_slow.jpg",
                       width: "10%"},
                       {title: "The Selfish Gene",
                       description: "A fun read about evolution and morality",
-                      path: "/images/books/selfish_gene.jpg",
+                      path: "images/books/selfish_gene.jpg",
                       width: "10%"},
                       {title: "The Righteous Mind",
                       description: "A fun read about beliefs and morality",
-                      path: "/images/books/righteous_mind.jpg",
+                      path: "images/books/righteous_mind.jpg",
                       width: "10%"},
                       {title: "The Ride of a Lifetime",
                       description: "A fun read about Robert Iger",
-                      path: "/images/books/robert_iger.jpg",
+                      path: "images/books/robert_iger.jpg",
                       width: "10%"}]
 
 

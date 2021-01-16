@@ -15,13 +15,13 @@ function Hobbies(props) {
         title={"Skiing"}
         content={[{title: "sup",
                   description: "hello",
-                  path: "/images/hobbies/ski1.jpg"}, 
+                  path: "images/hobbies/ski1.jpg"}, 
                   {title: "sup",
                   description: "hello",
-                  path: "/images/hobbies/ski2.jpg"},
+                  path: "images/hobbies/ski2.jpg"},
                   {title: "sup",
                   description: "hello",
-                  path: "/images/hobbies/ski3.jpg"},
+                  path: "images/hobbies/ski3.jpg"},
                   // {title: "sup",
                   // description: "hello",
                   // path: "/images/hobbies/ski4.jpg"},
@@ -31,39 +31,39 @@ function Hobbies(props) {
         title={"Photography (mostly astrophotography)"}
         content={[{title: "sup",
                   description: "hello",
-                  path: "/images/hobbies/star1.jpg"}, 
+                  path: "images/hobbies/star1.jpg"}, 
                   {title: "sup",
                   description: "hello",
-                  path: "/images/hobbies/star2.jpg"},
+                  path: "images/hobbies/star2.jpg"},
                   {title: "sup",
                   description: "hello",
-                  path: "/images/hobbies/sh1.jpg"},
+                  path: "images/hobbies/sh1.jpg"},
                   ]} >
       </HobbyBlock>
       <HobbyBlock
         title={"Sports"}
         content={[{title: "sup",
                   description: "hello",
-                  path: "/images/hobbies/bike2.jpg"}, 
+                  path: "images/hobbies/bike2.jpg"}, 
                   {title: "sup",
                   description: "hello",
-                  path: "/images/hobbies/climb.jpg"},
+                  path: "images/hobbies/climb.jpg"},
                   {title: "sup",
                   description: "hello",
-                  path: "/images/hobbies/kayak.jpg"}
+                  path: "images/hobbies/kayak.jpg"}
                   ]} >
       </HobbyBlock>
       <HobbyBlock
         title={"Hiking/Camping"}
         content={[{title: "sup",
                   description: "hello",
-                  path: "/images/hobbies/volcano.jpg"}, 
+                  path: "images/hobbies/volcano.jpg"}, 
                   {title: "sup",
                   description: "hello",
-                  path: "/images/hobbies/behind.jpg"},
+                  path: "images/hobbies/behind.jpg"},
                   {title: "sup",
                   description: "hello",
-                  path: "/images/hobbies/cracked.jpg"}
+                  path: "images/hobbies/cracked.jpg"}
                   ]} >
       </HobbyBlock>
       <div className="clear-both">
@@ -73,9 +73,6 @@ function Hobbies(props) {
 
       </div>
     </div>
-
-    
-
   )
 }
  

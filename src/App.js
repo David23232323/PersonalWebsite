@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 // Import the BrowserRouter, Route and Link components
-import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+import { HashRouter , Route, Link } from 'react-router-dom'; 
 import Home from './Home.js'; 
 import Hobbies from './hobbies/Hobbies.js'; 
 import Books from './book/books.js'; 
@@ -19,7 +19,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <div className="navigation">
           <div className="navigation-sub">
@@ -49,7 +49,7 @@ function App() {
 
 
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
