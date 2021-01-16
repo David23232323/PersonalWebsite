@@ -2,7 +2,7 @@
   "name": "personal_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/David23232323/PersonalWebsite",
+  "homepage": "https://david23232323.github.io/PersonalWebsite/",
   "dependencies": {
     "@craco/craco": "^6.0.0",
     "@react-pdf/renderer": "^1.6.12",
