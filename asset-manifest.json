@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/David23232323/PersonalWebsite/static/css/main.21c21b4a.chunk.css",
+    "main.js": "/David23232323/PersonalWebsite/static/js/main.92fd7cd5.chunk.js",
+    "main.js.map": "/David23232323/PersonalWebsite/static/js/main.92fd7cd5.chunk.js.map",
+    "runtime-main.js": "/David23232323/PersonalWebsite/static/js/runtime-main.e267ec5c.js",
+    "runtime-main.js.map": "/David23232323/PersonalWebsite/static/js/runtime-main.e267ec5c.js.map",
+    "static/js/2.f025bc21.chunk.js": "/David23232323/PersonalWebsite/static/js/2.f025bc21.chunk.js",
+    "static/js/2.f025bc21.chunk.js.map": "/David23232323/PersonalWebsite/static/js/2.f025bc21.chunk.js.map",
+    "static/js/3.80672fd0.chunk.js": "/David23232323/PersonalWebsite/static/js/3.80672fd0.chunk.js",
+    "static/js/3.80672fd0.chunk.js.map": "/David23232323/PersonalWebsite/static/js/3.80672fd0.chunk.js.map",
+    "index.html": "/David23232323/PersonalWebsite/index.html",
+    "static/css/main.21c21b4a.chunk.css.map": "/David23232323/PersonalWebsite/static/css/main.21c21b4a.chunk.css.map",
+    "static/js/2.f025bc21.chunk.js.LICENSE.txt": "/David23232323/PersonalWebsite/static/js/2.f025bc21.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/David23232323/PersonalWebsite/static/media/logo.6ce24c58.svg",
+    "static/media/resume.cdea11ff.pdf": "/David23232323/PersonalWebsite/static/media/resume.cdea11ff.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e267ec5c.js",
+    "static/js/2.f025bc21.chunk.js",
+    "static/css/main.21c21b4a.chunk.css",
+    "static/js/main.92fd7cd5.chunk.js"
+  ]
+}
