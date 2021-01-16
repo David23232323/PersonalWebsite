@@ -8,7 +8,7 @@ def generatePhotoJS(path):
     end = "];"
     prependPath = "images/hobbies/"
     paths = os.listdir(path)
-    random.shuffle(os.listdir(path))
+    random.shuffle(paths)
     for filename in paths:
         fullPath = os.path.join(path, filename)
         if fullPath.endswith("jpg") or fullPath.endswith("JPG") or fullPath.endswith("gif"):
