@@ -66,7 +66,7 @@ function Hobbies(props) {
                   path: "images/hobbies/cracked.jpg"}
                   ]} >
       </HobbyBlock>
-      <div className="clear-both">
+      <div>
         <h3>All Pics</h3>
         {/* <Gallery photos={photos} /> */}
         <Gallery photos={photos} />

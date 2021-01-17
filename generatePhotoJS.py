@@ -1,6 +1,9 @@
+#This code takes a directory path and gets the top level images, figures out the
+#correct aspect rations, and writes it as js file for the gallery component. 
 import os
 from PIL import Image
 import random
+
 
 
 def generatePhotoJS(path):

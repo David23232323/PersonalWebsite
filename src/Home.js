@@ -14,7 +14,7 @@ const imgCSS = {
     <div>
       <h1>Home</h1>
       <div>
-        <img src="images/home/display-low-res.jpg" alt="meee" style={imgCSS}></img>  
+        <img src="./images/home/display-low-res.jpg" alt="meee" style={imgCSS}></img>  
       </div>
       <div>
         <h3>About This Site</h3>
