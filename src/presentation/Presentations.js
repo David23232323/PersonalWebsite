@@ -10,7 +10,7 @@ export default function Presentations(props) {
     <div className="">
       <h1>Presentations</h1>
       <div className="m-auto w-8/12"> 
-        <p className="italic">During quarantine, my friend Michael proposed that each week, a person gives a presentation on any subject that they are interested in. Below are the presentation that I have given.</p>
+        <p className="italic">During quarantine, my friend <a className="underline hover:text-blue-600" target="_blank" href="https://michaelkronovet.com/">Michael</a> proposed that each week, a person gives a presentation on any subject that they are interested in. Below are the presentation that I have given.</p>
       </div>
 
 

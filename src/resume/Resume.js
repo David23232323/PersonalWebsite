@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { pdfjs } from 'react-pdf';
 import { Document, Page } from 'react-pdf';
-import PDF from 'react-pdf-js-infinite';
 
-import sample from '../assets/resume.pdf'
+import resume from '../assets/resume.pdf'
+import HyperLink from '../general_props/hyperlink'
+
 
 
 
@@ -18,18 +19,11 @@ function Resume(props) {
     <div>
       <h1>Resume</h1>
       <div>
-        <a href={sample} target="_blank">Open Resume in New Tab</a>
+        <HyperLink additionalClassName="" link={resume} text="Open Resume in New Tab"></HyperLink>
       </div>
       <div className="m-auto">
-        {/* <Document
-          file={sample}
-          onLoadError={console.error}
-        >
-        <Page pageNumber={pageNumber} />
-
-        </Document>  */}
         <center>
-        <embed src={sample} width="800px" height="2100px"/>
+        <embed src={resume} width="800px" height="2100px"/>
         </center>
 
 

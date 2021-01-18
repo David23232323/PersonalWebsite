@@ -9,7 +9,7 @@ import Books from './book/books.js';
 // import Hobbies from './Hobbies.js'; 
 
 import About from './About.js'; 
-import Interests from './Interests.js'; 
+import Interests from './interests/Interests.js'; 
 import Presentations from './presentation/Presentations.js';
 import Resume from './resume/Resume.js';
 

@@ -19,6 +19,7 @@
     "react-collapsed": "^3.0.1",
     "react-collapsible": "^2.8.1",
     "react-dom": "^17.0.1",
+    "react-ga": "^3.3.0",
     "react-pdf": "^5.1.0",
     "react-pdf-js-infinite": "^1.2.0",
     "react-photo-gallery": "^8.0.0",
