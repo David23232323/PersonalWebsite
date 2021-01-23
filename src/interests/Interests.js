@@ -30,7 +30,26 @@ function Interests(props) {
                     {title: "Physics", 
                     content: <p>blah blah blah physics</p>},
                     {title: "Human Psychology", 
-                    content: <p>human think think think</p>},
+                    content: <div>
+                        <Entry title="Replication Crisis    " date="1/17/2021">
+                            <div>
+                                <HyperLink additionalClassName="float-left"
+                                link="https://en.wikipedia.org/wiki/Replication_crisis#In_psychology"
+                                text="Source: Wikipedia"
+                                ></HyperLink>
+                                <p className="clear-both float-left">This post has to come first in this section. A lot of famous experiments are unreplicable. I think its important to fact check pyschology facts from articles by finding the original studies and see if there are papers critisizing it. An example of a seriously flawed study that I keep seeing referenced is the Stanford Prisoner Experiment.</p>
+                            </div>
+                        </Entry>
+                        <Entry title="Thinking Fast and Slow" date="1/17/2021">
+                            <div>
+                                <HyperLink additionalClassName="float-left"
+                                link="https://en.wikipedia.org/wiki/Replication_crisis#In_psychology"
+                                text="Source: Wikipedia"
+                                ></HyperLink>
+                                <p className="clear-both float-left">One of my favorite all time books. Really shows just how bad people are at reasoning.</p>
+                            </div>
+                        </Entry>
+                    </div>},
                     {title: "Economics", 
                     content: <p>content</p>           },
                     {title: "Misc", 
@@ -50,6 +69,10 @@ function Interests(props) {
 
     <div>
         <h1>Interests</h1>
+        <div className="m-auto w-8/12">
+            <p className="italic">Just some of my more academic interests, I plan on just using this page to document interesting things I've learned</p>
+        </div>
+
         <div className="m-auto w-8/12">
             {content.map((value, index) => {
                 return <Collapsible trigger={`+  ${value.title}  +`}

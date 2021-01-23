@@ -21,7 +21,7 @@ function PresentationRow(props) {
             >
             </ImageDownload>
         </div>
-        <div className="w-1/2 float-right flex items-center">
+        <div className="w-1/2 float-right flex text-left">
           <div className="m-auto">{props.description}</div>
         </div>
       </div>
