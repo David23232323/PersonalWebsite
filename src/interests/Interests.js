@@ -3,6 +3,7 @@ import Collapsible from 'react-collapsible';
 import Entry from './entry.js'
 import HyperLink from '../general_props/hyperlink'
 import * as blueDotQuote from './blueDot.js'
+import ImageText from '../general_props/ImageText'
 
  
 function Interests(props) {
@@ -16,12 +17,23 @@ function Interests(props) {
                                 link="https://www.youtube.com/watch?v=SumDHcnCRuU&ab_channel=CGPGrey"
                                 text="Source: CGP grey youtube video"
                                 ></HyperLink>
-                                <p className="clear-both float-left">For every planet in our solar system, mercury is closest to the planet than any other planet for the longest duration</p>
+                                <p className="clear-both float-left text-left">For every planet in our solar system, mercury is closest to the planet than any other planet for the longest duration</p>
                             </div>
                         </Entry>
                         <Entry title="A Pale Blue Dot" date="1/18/2021">
-                            <p>One of my favorite quotes of all time by Carl Sagen</p>
-                            <p>{blueDotQuote.blueDotQuote}</p>
+                            <p className="interest-text">One of my favorite quotes of all time by Carl Sagen:</p>
+                            <div className="clear-both float-left w-4/6">
+                                <p className="interest-text">{blueDotQuote.blueDotQuote}</p>
+                            </div>
+                            <div className="float-right w-2/6">
+                                <ImageText
+                                title="Pale Blue Dot: Earth"
+                                description="Furthest picture of earth"
+                                path="images/interests/Pale_Blue_Dot.png"
+                                >
+                                    
+                                </ImageText>
+                            </div>
 
                         </Entry>
                     </div>

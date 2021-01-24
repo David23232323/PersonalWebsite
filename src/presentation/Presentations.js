@@ -5,6 +5,7 @@ import './Presentation.css'
 import '../App.css';
  
 export default function Presentations(props) {
+  
   return (
     // Render a Thumbnail component
     <div className="">

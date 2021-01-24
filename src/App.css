@@ -24,6 +24,10 @@
   color: white;
 }
 
+.interest-text {
+  @apply clear-both float-left text-left;
+}
+
 /* img {
   padding: 0;
   display: block;
