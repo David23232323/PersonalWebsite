@@ -12,15 +12,28 @@ import About from './About.js';
 import Interests from './interests/Interests.js'; 
 import Presentations from './presentation/Presentations.js';
 import Resume from './resume/Resume.js';
-
-
-
-
 import './App.css';
+import ReactGA from 'react-ga';
+
+import { createBrowserHistory } from 'history';
+
+ReactGA.initialize('UA-187556726-1');
+const history = createBrowserHistory();
+
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
+
+// function initializeReactGA() {
+//   ReactGA.initialize('G-ZMRDZX40VX');
+//   ReactGA.pageview('');
+// }
+
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter history={history}>
       <div className="App">
         <div className="navigation">
           <div className="navigation-sub">

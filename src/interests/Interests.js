@@ -17,7 +17,7 @@ function Interests(props) {
                                 link="https://www.youtube.com/watch?v=SumDHcnCRuU&ab_channel=CGPGrey"
                                 text="Source: CGP grey youtube video"
                                 ></HyperLink>
-                                <p className="clear-both float-left text-left">For every planet in our solar system, mercury is closest to the planet than any other planet for the longest duration</p>
+                                <p className="interest-text">For every planet in our solar system, mercury is closest to the planet than any other planet for the longest duration</p>
                             </div>
                         </Entry>
                         <Entry title="A Pale Blue Dot" date="1/18/2021">
@@ -43,22 +43,22 @@ function Interests(props) {
                     content: <p>blah blah blah physics</p>},
                     {title: "Human Psychology", 
                     content: <div>
-                        <Entry title="Replication Crisis    " date="1/17/2021">
+                        <Entry title="Replication Crisis" date="1/17/2021">
                             <div>
                                 <HyperLink additionalClassName="float-left"
                                 link="https://en.wikipedia.org/wiki/Replication_crisis#In_psychology"
                                 text="Source: Wikipedia"
                                 ></HyperLink>
-                                <p className="clear-both float-left">This post has to come first in this section. A lot of famous experiments are unreplicable. I think its important to fact check pyschology facts from articles by finding the original studies and see if there are papers critisizing it. An example of a seriously flawed study that I keep seeing referenced is the Stanford Prisoner Experiment.</p>
+                                <p className="interest-text">This post has to come first in this section. A lot of famous experiments are unreplicable. I think its important to fact check pyschology facts from articles by finding the original studies and see if there are papers critisizing it. An example of a seriously flawed study that I keep seeing referenced is the Stanford Prisoner Experiment.</p>
                             </div>
                         </Entry>
                         <Entry title="Thinking Fast and Slow" date="1/17/2021">
                             <div>
                                 <HyperLink additionalClassName="float-left"
-                                link="https://en.wikipedia.org/wiki/Replication_crisis#In_psychology"
-                                text="Source: Wikipedia"
+                                link="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow"
+                                text="Wikipedia"
                                 ></HyperLink>
-                                <p className="clear-both float-left">One of my favorite all time books. Really shows just how bad people are at reasoning.</p>
+                                <p className="interest-text">One of my favorite all time books. Really shows just how bad people are at reasoning.</p>
                             </div>
                         </Entry>
                     </div>},

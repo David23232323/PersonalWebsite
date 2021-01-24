@@ -12,6 +12,10 @@ const imgCSS = {
 
   return (
     <div>
+      <div class="mobileShow">
+        Unfortunately, this site doesn't work well on mobile, please visit from a desktop. Thanks! 
+      </div>
+      
       <h1>Home</h1>
       <div>
         <img src="./images/home/display-low-res.jpg" alt="me" style={imgCSS}></img>  
