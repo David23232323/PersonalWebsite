@@ -12,9 +12,20 @@ const imgCSS = {
 
   return (
     <div>
-      <div class="mobileShow">
+      <div class="mobileShow text-black font-bold">
         Unfortunately, this site doesn't work well on mobile, please visit from a desktop. Thanks! 
       </div>
+
+      { window.onload=function(){
+        var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+        if (mobile) {
+            alert("Visit this on a Computer for Better View");              
+        } else {
+
+        }
+      }
+      }
+
       
       <h1>Home</h1>
       <div>

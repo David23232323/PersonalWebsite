@@ -25,11 +25,6 @@ history.listen(location => {
   ReactGA.pageview(location.pathname); // Record a pageview for the given page
 });
 
-// function initializeReactGA() {
-//   ReactGA.initialize('G-ZMRDZX40VX');
-//   ReactGA.pageview('');
-// }
-
 
 function App() {
   return (
@@ -58,9 +53,6 @@ function App() {
         <Route path="/interests" component={Interests} />
         <Route path="/presentations" component={Presentations} />
         <Route path="/resume" component={Resume} />
-
-
-
 
       </div>
     </HashRouter>
