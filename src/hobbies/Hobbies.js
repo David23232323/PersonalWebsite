@@ -5,10 +5,8 @@ import Gallery from "react-photo-gallery";
 import { photos } from "./photos";
 
 
- 
 function Hobbies(props) {
   return (
-    // Render a Thumbnail component
     <div>
       <h1>Hobbies</h1>
       <HobbyBlock
@@ -22,9 +20,6 @@ function Hobbies(props) {
                   {title: "sup",
                   description: "hello",
                   path: "images/hobbies/ski3.jpg"},
-                  // {title: "sup",
-                  // description: "hello",
-                  // path: "/images/hobbies/ski4.jpg"},
                   ]} >
       </HobbyBlock>
       <HobbyBlock
@@ -68,9 +63,7 @@ function Hobbies(props) {
       </HobbyBlock>
       <div>
         <h3>All Pics</h3>
-        {/* <Gallery photos={photos} /> */}
         <Gallery photos={photos} />
-
       </div>
     </div>
   )

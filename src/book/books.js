@@ -3,7 +3,6 @@ import SortableTable from './SortableTable.js'
 import ImageText from '../general_props/ImageText.js'
 
 export default function Book() {
-
   const favBooks = [{title: "Future of Capitalism",
                       description: "A fun read about economics",
                       path: "images/books/future_capitalism.jpg",
@@ -24,9 +23,6 @@ export default function Book() {
                       description: "A fun read about Robert Iger",
                       path: "images/books/robert_iger.jpg",
                       width: "10%"}]
-
-
-
     return (
       <div className="Book">
           <h1>Books</h1>

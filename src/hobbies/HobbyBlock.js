@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import '../App.css';
 import ImageText from '../general_props/ImageText.js'; // Import the Thumbnail component
  
+
 function HobbyBlock(props) {
   const blockCSS = {
     clear: "left"
@@ -16,8 +17,7 @@ function HobbyBlock(props) {
     width={"80%"} >
     </ImageText>)
   }
-
-
+  
   return (
     <div className="clear-both">
       <h3>{props.title}</h3>

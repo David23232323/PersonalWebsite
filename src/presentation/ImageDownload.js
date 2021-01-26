@@ -1,9 +1,8 @@
 import React from 'react';
  
+
 function ImageDownload(props) {
-
   return (
-
         <div className="contentDownload">
             <a href={props.filePath} target="_blank">
             <div className="contentDownload-overlay" ><a href={props.filePath} target="_blank"></a></div> 

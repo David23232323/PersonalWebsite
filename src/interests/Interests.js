@@ -30,14 +30,11 @@ function Interests(props) {
                                 title="Pale Blue Dot: Earth"
                                 description="Furthest picture of earth"
                                 path="images/interests/Pale_Blue_Dot.png"
-                                >
-                                    
+                                >          
                                 </ImageText>
                             </div>
-
                         </Entry>
                     </div>
-                    
                     },
                     {title: "Physics", 
                     content: <p>blah blah blah physics</p>},
@@ -63,7 +60,7 @@ function Interests(props) {
                         </Entry>
                     </div>},
                     {title: "Economics", 
-                    content: <p>content</p>           },
+                    content: <p>content</p> },
                     {title: "Misc", 
                     content:                         
                         <Entry title="MIT Missing Semester" date="1/17/2021">
@@ -75,10 +72,8 @@ function Interests(props) {
                             <p className="clear-both float-left">Some useful stuff I've been looking through for the winter of 2021 cuz quarantine</p>
                         </div>
                         </Entry>},
-
                 ]
   return (
-
     <div>
         <h1>Interests</h1>
         <div className="m-auto w-8/12">
@@ -101,9 +96,7 @@ function Interests(props) {
             })}
         </div>
     </div>
-
-    
   )
 }
- 
+
 export default Interests;
